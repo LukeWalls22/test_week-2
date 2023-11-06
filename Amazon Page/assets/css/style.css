@@ -81,9 +81,9 @@ main {
 
 .images {
     display: inline-block;
-    width: 22.5%;
-    height: 25rem;
-    margin: 1rem 1rem;
+    width: 20%;
+    height: 22rem;
+    margin: 1rem 2rem;
 }
 
 .images img {
@@ -91,7 +91,7 @@ main {
     height: 100%;
     object-fit: cover;
     border-radius: 18px;
-    box-shadow: 10px 5px 13px #e2e2e2;
+    box-shadow: 10px 5px 9px #e2e2e2;
 }
 
 .imagelink {
