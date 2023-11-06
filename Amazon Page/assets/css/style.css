@@ -1,14 +1,15 @@
 
-/* display inline block */
-
 h1 {
     color: white;
     font-weight: bold;
+    font-size: 1.9rem;
+    margin-bottom: 1.7rem;
 }
 
 h2 {
     font-weight: bold;
     display: inline-block;
+    margin: 1rem 1rem 0 1rem;
 }
 
 body {
@@ -16,7 +17,7 @@ body {
 }
 
 main {
-    padding: 1.5rem 1rem;
+    padding: 1.5rem 1.5rem;
 }
 
 header {
@@ -25,7 +26,7 @@ header {
 
 header img {
     padding: 0.5rem 1rem;
-    width: 15%;
+    width: 11%;
 }
 
 #nav {
@@ -51,30 +52,87 @@ main {
     background-color: #f46600;
     text-align: center;
     color: white;
-    padding: 1rem;
+    padding: 0.8rem;
+    margin: 1rem 0 2rem 0;
 }
 
 #h1banner {
     background-image: url(../images/bg-image.png);
     color: white;
     text-align: center;
-    padding: 5rem;
+    padding: 4rem 5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
+
 
 #imgbanner {
     background-color: white;
+    margin: 2rem 0;
+
 }
 
-#imgbanner img {
-    width: 20%;
-    height: auto;
+#imgbantext a {
+    text-decoration: none;
+    color: #2a6677;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.images {
+    display: inline-block;
+    width: 22.5%;
+    height: 25rem;
+    margin: 1rem 1rem;
+}
+
+.images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 18px;
+    box-shadow: 10px 5px 13px #e2e2e2;
+}
+
+.imagelink {
+    text-align: center;
+}
+
+.imagelink p {
+    display: inline-block;
+    margin: 0.2rem 0.3rem 1rem 0.3rem;
+}
+
+.imagelink a {
+    text-decoration: none;
+    color: #2a6677;
+    font-weight: bold;
+}
+
+.imagelink img {
+    width: 100%;
+    object-fit: cover;
 }
 
 #BackTop {
     background-color: #364759;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+#BackTop a {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 footer {
     background-color: #222f3f;
+    text-align: center;
+}
+
+footer img {
+    width: 10%;
+    margin: 3rem 0 4rem 0;
 }
 
